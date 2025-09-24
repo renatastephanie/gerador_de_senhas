@@ -17,10 +17,10 @@ Um gerador de senhas moderno, responsivo e personalizável, feito com HTML, CSS 
 
 ## 🖼️ Preview
 
-- Clique **aqui** para acessar o projeto https://generate-password-by-renatastephanie.netlify.app/
+- Clique **aqui** para acessar o projeto [Clique Aqui](https://gerador-de-senhas-eta-inky.vercel.app/)
 
 ## 🚀 Tecnologias
 
 - HTML5
 - CSS3 (com responsividade e animações)
-- JavaScript Vanilla
+- JavaScript
