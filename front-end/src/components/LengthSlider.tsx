@@ -32,6 +32,7 @@ const SliderValue = styled.span`
 `
 
 const Slider = styled.input`
+  appearance: none;
   -webkit-appearance: none;
   width: 100%;
   height: 6px;
