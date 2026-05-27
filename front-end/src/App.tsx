@@ -3,6 +3,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import type { PasswordOptions } from "./types/password";
 import { generatePassword } from "./utils/generatePassword";
 import { PasswordDisplay } from "./components/PasswordDisplay";
+import { LengthSlider } from "./components/LengthSlider";
 import { PasswordOptions as PasswordOptionsComponent } from "./components/PasswordOptions";
 import { GenerateButton } from "./components/GenerateButton";
 const GlobalStyle = createGlobalStyle`
