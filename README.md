@@ -1,10 +1,10 @@
-# 🔐 Gerador de Senha
+# 🔐 Gerador de Senhas
 
-Um gerador de senhas moderno, responsivo e personalizável, feito com HTML, CSS e JavaScript.
+Um gerador de senhas moderno, responsivo e personalizável, migrado de HTML/CSS/JS para React, TypeScript e Styled Components.
 
 ## ✨ Funcionalidades
 
-- Geração de senhas seguras com até 12 caracteres
+- Geração de senhas seguras com comprimento configurável (6 a 32 caracteres)
 - Opções de personalização:
   - Letras minúsculas
   - Letras maiúsculas
@@ -12,15 +12,17 @@ Um gerador de senhas moderno, responsivo e personalizável, feito com HTML, CSS 
   - Símbolos
   - Espaços
   - Evitar caracteres duplicados
+- Slider interativo para definir o comprimento da senha
 - Botão para copiar a senha com feedback visual
 - Interface estilosa e responsiva com foco em usabilidade
 
 ## 🖼️ Preview
 
-- Clique **aqui** para acessar o projeto [Clique Aqui](https://gerador-de-senhas-eta-inky.vercel.app/)
+- Clique **aqui** para acessar o projeto [Clique Aqui](https://gerador-de-senhas-w4rn.vercel.app/)
 
 ## 🚀 Tecnologias
 
-- HTML5
-- CSS3 (com responsividade e animações)
-- JavaScript
+- React 
+- TypeScript
+- Styled Components
+- Vite
