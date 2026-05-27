@@ -85,8 +85,9 @@ function App() {
         <Title>Gerador de Senhas</Title>
         <Wrapper>
           <PasswordDisplay password={password} />
+          <LengthSlider value={options.length} onChange={(length) => setOptions({...options, length})}/>
           <PasswordOptionsComponent options={options} onChange={setOptions} />
-          <GenerateButton onClick={handleGenerate}/>
+          <GenerateButton onClick={handleGenerate} />
         </Wrapper>
       </Container>
     </>
