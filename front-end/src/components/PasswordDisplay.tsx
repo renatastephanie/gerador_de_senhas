@@ -64,11 +64,11 @@ export const PasswordDisplay = ({ password }: Props) => {
       <PasswordInput
         value={password}
         readOnly
-        placeholder="CLique em gerar..."
+        placeholder="Clique em gerar..."
       />
 
       <CopyButton $copied={copied} onClick={handleCopy}>
-        {copied ? 'Copied' : 'Copy'}
+        {copied ? 'Copiado' : 'Copiar'}
       </CopyButton>
     </InputBox>
   );
