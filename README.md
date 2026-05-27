@@ -1,4 +1,4 @@
-# 🔐 Password Generator
+# 🔐 Gerador de Senha
 
 Um gerador de senhas moderno, responsivo e personalizável, feito com HTML, CSS e JavaScript.
 
