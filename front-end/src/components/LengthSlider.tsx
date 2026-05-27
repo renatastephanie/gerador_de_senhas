@@ -64,7 +64,7 @@ export const LengthSlider = ({value, onChange}: Props) => {
 
       <Slider
         type="range"
-        min={6}
+        min={4}
         max={32}
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
