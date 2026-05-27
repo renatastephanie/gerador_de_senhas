@@ -21,7 +21,7 @@ export function generatePassword(options: PasswordOptions): string{
 
   while (password.length < options.length) {
     const char = characters[Math.floor(Math.random() * characters.length)]
-    if (options.excludeDuplicate && password.includes(char)) continue
+    if (options.excludeDuplicates && password.includes(char)) continue
     password += char
   }
 
